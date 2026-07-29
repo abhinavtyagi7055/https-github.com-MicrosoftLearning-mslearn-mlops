@@ -107,7 +107,7 @@ def parse_args():
     # add arguments
     parser.add_argument("--training_data", dest='training_data',
                         type=str)
-    parser.add_argument("--reg_rate", dest='reg_rate',
+    parser.add_argument("--reg_rate", dest='reg_ ',
                         type=float, default=0.01)
     parser.add_argument("--metrics_output", dest='metrics_output',
                         type=str, default=None)
